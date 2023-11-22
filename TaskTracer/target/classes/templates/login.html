@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid text-center">
+      <span class="navbar-text">
+        <h3>Task Traer Web Application</h3>
+      </span>
+    </div>
+  </nav>
+  <br><br><br><br>
+  <h1 class="text-center">Login</h1>
+
+    <form method="post" class="text-center">
+      <br>
+      <input type="text" name="username" placeholder="User Name" />
+      <br><br>
+      <input type="password" name="password" placeholder="Password" />
+      <br><br>
+      <button class="btn btn-primary">Submit</button>
+    </form>
+    <p class="text-center"><span style="color:blue">Haven't Logged in yet?</span></p>
+    <p class="text-center"><button class="btn btn-primary">Register</button></p>
+
+</body>
+
+</html>
